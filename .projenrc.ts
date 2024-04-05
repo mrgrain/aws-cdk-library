@@ -40,6 +40,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
 
   // ],
 
+  bundledDeps: [
+    'yaml',
+  ],
+
 });
 
 
